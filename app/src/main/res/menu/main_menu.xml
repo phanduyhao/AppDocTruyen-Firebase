@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Trang chủ"
+            android:icon="@drawable/icon_home"/>
+        <item
+            android:id="@+id/truyen_hanhdong"
+            android:title="Truyện hành động"
+            android:icon="@drawable/ic_book"/>
+        <item
+            android:id="@+id/truyen_trinhtham"
+            android:title="Truyện trinh thám"
+            android:icon="@drawable/ic_book"/>
+        <item
+            android:id="@+id/truyen_tinhcam"
+            android:title="Truyện tình cảm"
+            android:icon="@drawable/ic_book"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dangtruyen"
+            android:title="Đăng truyện"
+            android:icon="@drawable/ic_upload"/>
+        <item
+            android:id="@+id/naptien"
+            android:title="Nạp tiền"
+            android:icon="@drawable/ic_money"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+            android:title="Share"
+            android:icon="@drawable/ic_share"/>
+        <item
+            android:id="@+id/rate_us"
+            android:title="Rate Us"
+            android:icon="@drawable/ic_rate"/>
+    </group>
+</menu>

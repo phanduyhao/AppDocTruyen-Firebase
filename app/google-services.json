@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "255277380639",
+    "project_id": "dangnhap-14382",
+    "storage_bucket": "dangnhap-14382.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255277380639:android:b6b324779dbdf8e627912a",
+        "android_client_info": {
+          "package_name": "com.example.doctruyenfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv0PPitobBM4wJ8dGts-jWbeiNjHbY-cI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

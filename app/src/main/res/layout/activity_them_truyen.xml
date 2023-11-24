@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- ... -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Thêm mới truyện"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:layout_height="match_parent"/>
+<!-- EditText để nhập tên truyện, link, chap, nội dung, vv. -->
+    <EditText
+        android:id="@+id/anhtruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ảnh truyện" />
+    <EditText
+        android:id="@+id/tenTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên truyện" />
+    <EditText
+        android:id="@+id/noiDungTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nội dung truyện" />
+    <EditText
+        android:id="@+id/danhMuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Danh mục" />
+<!-- Các EditText khác -->
+
+<!-- Button để thực hiện thêm/sửa truyện -->
+<Button
+    android:id="@+id/buttonSaveStory"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Lưu" />
+</LinearLayout>
+    <!-- ... -->
+
